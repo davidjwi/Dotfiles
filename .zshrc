@@ -1,5 +1,9 @@
-# Created by newuser for 5.3.1
-#
-alias c="clear"
+alias c='clear'
 
-alias ..."cd ../../"
+alias cd..='cd ..'
+alias ...='cd ../../'
+
+
+alias cp='cp -v'
+alias mkdir='mkdir -v'
+
