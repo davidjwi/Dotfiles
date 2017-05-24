@@ -1,5 +1,6 @@
 [options]
-font = Adobe Souce Code Pro 10
+font = Awesome 
+font = Source Code Pro 10
 
 [colors]
 background = rgba(7,7,7,.7)
