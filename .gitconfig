@@ -2,4 +2,14 @@
 	email = davidjwinsor@gmail.com
 	name = David
 [alias]
-	co = checkout
+	co = checkout -v
+	c = commit -v
+	a = add -v
+	st = status -s
+	br = branch
+	d = diff
+	ds = diff --stat
+	lg = "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
+	
+[core]
+	excludesfile = /home/david/Projects/Dotfiles/.gitignore_global
