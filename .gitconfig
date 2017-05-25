@@ -13,11 +13,3 @@
 	
 [core]
 	excludesfile = /home/david/Projects/Dotfiles/.gitignore_global
-
-[submodule "gruvbox"]
-	path = ~/.vim/colors
-	url = https://github.com/morhetz/gruvbox
-
-[submodule "vundle"]
-	path = ~/.vim/bundle
-	url = https://github.com/VundleVim/Vundle.vim
