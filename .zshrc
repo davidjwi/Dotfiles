@@ -1,5 +1,5 @@
 alias c='clear'
-
+alias ~='cd $HOME'
 alias ..='cd ..'
 alias cd..='cd ..'
 
