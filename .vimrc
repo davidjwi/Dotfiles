@@ -1,3 +1,29 @@
+"   ------------------------------
+"       Vundle
+"   ------------------------------
+"   
+    set nocompatible              " be iMproved, required
+    filetype off                  " required
+"   set the runtime path to include Vundle and initialize
+    set rtp+=~/.vim/bundle/Vundle.vim
+    call vundle#begin()
+"    let Vundle manage Vundle, required
+    Plugin 'VundleVim/Vundle.vim'
+"   Vundle Plugins
+"   plugin on GitHub repo
+    Plugin 'tpope/vim-surround' " better html editing
+    Plugin 'tpope/vim-repeat' " dot command repeats on more stuff
+"    Plugin 'flazz/vim-colorschemes' " colors
+"    Plugin 'Valloric/YouCompleteMe' " word autocomplete
+"    Plugin 'scrooloose/nerdtree' " file explorer tree
+"    Plugin 'vim-syntastic/syntastic' " syntax checking
+    Plugin 'gregsexton/MatchTag' " html tag matching
+    Plugin 'morhetz/gruvbox' " gruvbox color
+    call vundle#end()
+
+"   ------------------------------
+"       End Vundle
+"   ------------------------------
 
 "   load filetype-specific indent files
 "   enable after vundle
