@@ -14,16 +14,31 @@
     Plugin 'tpope/vim-surround' " better html editing
     Plugin 'tpope/vim-repeat' " dot command repeats on more stuff
 "    Plugin 'flazz/vim-colorschemes' " colors
-"    Plugin 'Valloric/YouCompleteMe' " word autocomplete
-"    Plugin 'scrooloose/nerdtree' " file explorer tree
-"    Plugin 'vim-syntastic/syntastic' " syntax checking
+    Plugin 'Valloric/YouCompleteMe' " word autocomplete
+    Plugin 'scrooloose/nerdtree' " file explorer tree
+    Plugin 'vim-syntastic/syntastic' " syntax checking
     Plugin 'gregsexton/MatchTag' " html tag matching
     Plugin 'morhetz/gruvbox' " gruvbox color
+"    Plugin 'ternjs/tern_for_vim' "JS semantic completion
     call vundle#end()
 
 "   ------------------------------
 "       End Vundle
 "   ------------------------------
+
+" Syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+" Tern Settings
+let  g:tern_show_argument_hints='on_hold'
+let g:tern_map_keys=1
 
 "   load filetype-specific indent files
 "   enable after vundle
